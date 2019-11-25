@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,125 +7,126 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
-   version="1.1"
-   id="svg8"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="example-1.svg"
-   inkscape:export-filename="/home/jan/FPGA/chisel/minimal-prj/bfm-tester-example/docs/example-1.png"
+   inkscape:export-ydpi="150"
    inkscape:export-xdpi="150"
-   inkscape:export-ydpi="150">
+   inkscape:export-filename="/home/jan/FPGA/chisel/minimal-prj/bfm-tester-example/docs/example-1.png"
+   sodipodi:docname="example-1.svg"
+   inkscape:version="1.0beta1 (66c9ca5f8b, 2019-11-24)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 297 210"
+   height="210mm"
+   width="297mm">
   <defs
      id="defs2">
     <marker
-       inkscape:stockid="TriangleInM"
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
+       inkscape:isstock="true"
+       style="overflow:visible"
        id="TriangleInM"
-       style="overflow:visible"
-       inkscape:isstock="true">
-      <path
-         id="path1908"
-         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(-0.4)" />
-    </marker>
-    <marker
-       inkscape:stockid="TriangleOutM"
-       orient="auto"
-       refY="0.0"
        refX="0.0"
-       id="TriangleOutM"
-       style="overflow:visible"
-       inkscape:isstock="true">
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleInM">
       <path
-         id="path1917"
-         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         transform="scale(-0.4)"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(0.4)" />
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path1908" />
     </marker>
     <marker
-       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="TriangleOutM"
+       refX="0.0"
+       refY="0.0"
        orient="auto"
-       refY="0"
-       refX="0"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path1917" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
        id="TriangleOutM-2"
-       style="overflow:visible"
-       inkscape:isstock="true">
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
       <path
-         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
          id="path1917-6"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
-         transform="scale(0.4)" />
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:stockid="TriangleOutM"
-       orient="auto"
-       refY="0"
-       refX="0"
+       inkscape:isstock="true"
+       style="overflow:visible"
        id="TriangleOutM-2-0"
-       style="overflow:visible"
-       inkscape:isstock="true">
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
       <path
-         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
          id="path1917-6-6"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
-         transform="scale(0.4)" />
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:stockid="TriangleOutM"
-       orient="auto"
-       refY="0"
-       refX="0"
+       inkscape:isstock="true"
+       style="overflow:visible"
        id="TriangleOutM-2-0-5"
-       style="overflow:visible"
-       inkscape:isstock="true">
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
       <path
-         inkscape:connector-curvature="0"
-         id="path1917-6-6-9"
-         d="M 5.77,0 -2.88,5 V -5 Z"
+         transform="scale(0.4)"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
-         transform="scale(0.4)" />
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1917-6-6-9"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:stockid="TriangleOutM"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="TriangleOutM-2-0-5-9"
+       inkscape:isstock="true"
        style="overflow:visible"
-       inkscape:isstock="true">
+       id="TriangleOutM-2-0-5-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
       <path
-         inkscape:connector-curvature="0"
-         id="path1917-6-6-9-0"
-         d="M 5.77,0 -2.88,5 V -5 Z"
+         transform="scale(0.4)"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
-         transform="scale(0.4)" />
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1917-6-6-9-0"
+         inkscape:connector-curvature="0" />
     </marker>
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="552.61961"
-     inkscape:cy="421.10101"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="3200"
-     inkscape:window-height="1672"
+     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
      inkscape:window-x="0"
-     inkscape:window-y="54"
-     inkscape:window-maximized="1" />
+     inkscape:window-height="836"
+     inkscape:window-width="1600"
+     showgrid="false"
+     inkscape:current-layer="g1381"
+     inkscape:document-units="mm"
+     inkscape:cy="229.54616"
+     inkscape:cx="539.15091"
+     inkscape:zoom="1.979899"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -136,480 +135,480 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
+     transform="translate(0,-87)"
      id="layer1"
-     transform="translate(0,-87)">
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
     <rect
-       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.50000077;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect815-1"
-       width="219.60371"
-       height="110.91776"
+       y="131.07581"
        x="30.375765"
-       y="131.07581" />
+       height="110.91776"
+       width="219.60371"
+       id="rect815-1"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.50000077;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
-       style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.50000077;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect815"
-       width="103.87601"
-       height="69.75824"
+       y="165.36938"
        x="88.395073"
-       y="165.36938" />
+       height="69.75824"
+       width="103.87601"
+       id="rect815"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.50000077;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <g
-       id="g923"
-       transform="matrix(1.0000032,0,0,0.99999999,32.643412,93.868631)">
+       transform="matrix(1.0000032,0,0,0.99999999,32.643412,93.868631)"
+       id="g923">
       <rect
-         y="85.427826"
-         x="55.751484"
-         height="17.386911"
-         width="28.06473"
+         style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect817"
-         style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         id="text823"
-         y="91.33046"
-         x="69.774544"
-         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan825"
-           style="font-weight:bold;font-size:4.23333311px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="91.33046"
-           x="69.774544"
-           sodipodi:role="line">io.a</tspan></text>
-      <text
-         id="text913"
-         y="96.217346"
-         x="69.920792"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="96.217346"
-           x="69.920792"
-           id="tspan911"
-           sodipodi:role="line">AXI Stream</tspan><tspan
-           id="tspan915"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="99.745125"
-           x="69.920792"
-           sodipodi:role="line">slave port</tspan></text>
-    </g>
-    <g
-       transform="matrix(1.0000032,0,0,0.99999999,32.643412,119.7107)"
-       id="g923-2">
-      <rect
-         y="85.427826"
+         width="28.06473"
+         height="17.386911"
          x="55.751484"
-         height="17.386911"
-         width="28.06473"
-         id="rect817-7"
-         style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         y="85.427826" />
       <text
-         id="text823-0"
-         y="91.33046"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="69.774544"
-         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan825-9"
-           style="font-weight:bold;font-size:4.23333311px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="91.33046"
+         y="91.33046"
+         id="text823"><tspan
+           sodipodi:role="line"
            x="69.774544"
-           sodipodi:role="line">io.b</tspan></text>
+           y="91.33046"
+           style="font-weight:bold;font-size:4.23333px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan825">io.a</tspan></text>
       <text
-         id="text913-3"
-         y="96.217346"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="69.920792"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         y="96.217346"
+         id="text913"><tspan
+           sodipodi:role="line"
+           id="tspan911"
+           x="69.920792"
            y="96.217346"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px">AXI Stream</tspan><tspan
+           sodipodi:role="line"
            x="69.920792"
-           id="tspan911-6"
-           sodipodi:role="line">AXI Stream</tspan><tspan
-           id="tspan915-0"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
            y="99.745125"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan915">slave port</tspan></text>
+    </g>
+    <g
+       id="g923-2"
+       transform="matrix(1.0000032,0,0,0.99999999,32.643412,119.7107)">
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect817-7"
+         width="28.06473"
+         height="17.386911"
+         x="55.751484"
+         y="85.427826" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="69.774544"
+         y="91.33046"
+         id="text823-0"><tspan
+           sodipodi:role="line"
+           x="69.774544"
+           y="91.33046"
+           style="font-weight:bold;font-size:4.23333px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan825-9">io.b</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="69.920792"
+         y="96.217346"
+         id="text913-3"><tspan
+           sodipodi:role="line"
+           id="tspan911-6"
            x="69.920792"
-           sodipodi:role="line">slave port</tspan></text>
+           y="96.217346"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px">AXI Stream</tspan><tspan
+           sodipodi:role="line"
+           x="69.920792"
+           y="99.745125"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan915-0">slave port</tspan></text>
     </g>
     <g
-       id="g1333"
-       transform="matrix(1.0000032,0,0,0.99999999,-7.2469883,20.415183)">
+       transform="matrix(1.0000032,0,0,0.99999999,-7.2469883,20.415183)"
+       id="g1333">
       <rect
-         y="158.88127"
-         x="171.4527"
-         height="17.386911"
-         width="28.06473"
+         style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect817-7-2"
-         style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         width="28.06473"
+         height="17.386911"
+         x="171.4527"
+         y="158.88127" />
       <text
-         id="text823-0-6"
-         y="164.78391"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="185.47575"
-         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan825-9-1"
-           style="font-weight:bold;font-size:4.23333311px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="164.78391"
+         y="164.78391"
+         id="text823-0-6"><tspan
+           sodipodi:role="line"
            x="185.47575"
-           sodipodi:role="line">io.q1</tspan></text>
+           y="164.78391"
+           style="font-weight:bold;font-size:4.23333px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan825-9-1">io.q1</tspan></text>
       <text
-         id="text913-3-8"
-         y="169.67079"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="185.62199"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="169.67079"
-           x="185.62199"
+         y="169.67079"
+         id="text913-3-8"><tspan
+           sodipodi:role="line"
            id="tspan911-6-7"
-           sodipodi:role="line">AXI Stream</tspan><tspan
-           id="tspan915-0-9"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="173.19856"
            x="185.62199"
-           sodipodi:role="line">master port</tspan></text>
+           y="169.67079"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px">AXI Stream</tspan><tspan
+           sodipodi:role="line"
+           x="185.62199"
+           y="173.19856"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan915-0-9">master port</tspan></text>
     </g>
     <g
-       id="g1341"
-       transform="matrix(1.0000032,0,0,0.99999999,-5.4429053,21.601604)">
+       transform="matrix(1.0000032,0,0,0.99999999,-5.4429053,21.601604)"
+       id="g1341">
       <rect
-         y="183.5369"
-         x="169.64862"
-         height="17.386911"
-         width="28.06473"
+         style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect817-7-2-0"
-         style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         id="text823-0-6-2"
-         y="189.43953"
-         x="183.67168"
-         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan825-9-1-3"
-           style="font-weight:bold;font-size:4.23333311px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="189.43953"
-           x="183.67168"
-           sodipodi:role="line">io.q2</tspan></text>
-      <text
-         id="text913-3-8-7"
-         y="194.32642"
-         x="183.81793"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="194.32642"
-           x="183.81793"
-           id="tspan911-6-7-5"
-           sodipodi:role="line">AXI Stream</tspan><tspan
-           id="tspan915-0-9-9"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="197.85419"
-           x="183.81793"
-           sodipodi:role="line">master port</tspan></text>
-    </g>
-    <g
-       id="g1381"
-       transform="matrix(1.0000032,0,0,0.99999999,-6.5988224,13.036204)">
-      <rect
-         y="152.33318"
-         x="132.89906"
-         height="17.386911"
          width="28.06473"
+         height="17.386911"
+         x="169.64862"
+         y="183.5369" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="183.67168"
+         y="189.43953"
+         id="text823-0-6-2"><tspan
+           sodipodi:role="line"
+           x="183.67168"
+           y="189.43953"
+           style="font-weight:bold;font-size:4.23333px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan825-9-1-3">io.q2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="183.81793"
+         y="194.32642"
+         id="text913-3-8-7"><tspan
+           sodipodi:role="line"
+           id="tspan911-6-7-5"
+           x="183.81793"
+           y="194.32642"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px">AXI Stream</tspan><tspan
+           sodipodi:role="line"
+           x="183.81793"
+           y="197.85419"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan915-0-9-9">master port</tspan></text>
+    </g>
+    <g
+       transform="matrix(1.0000032,0,0,0.99999999,-6.5988224,13.036204)"
+       id="g1381">
+      <rect
+         style="fill:#37c871;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect817-7-2-8"
-         style="fill:#37c871;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         width="28.06473"
+         height="17.386911"
+         x="132.89906"
+         y="152.33318" />
       <text
-         id="text823-0-6-9"
-         y="158.23581"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="146.92212"
-         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan825-9-1-7"
-           style="font-weight:bold;font-size:4.23333311px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="158.23581"
+         y="158.23581"
+         id="text823-0-6-9"><tspan
+           sodipodi:role="line"
            x="146.92212"
-           sodipodi:role="line">io.ctrl</tspan></text>
+           y="158.23581"
+           style="font-weight:bold;font-size:4.23333px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan825-9-1-7">io.ctrl</tspan></text>
       <text
-         id="text913-3-8-3"
-         y="163.1227"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="147.06837"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="163.1227"
-           x="147.06837"
+         y="163.1227"
+         id="text913-3-8-3"><tspan
+           sodipodi:role="line"
            id="tspan911-6-7-6"
-           sodipodi:role="line">AXI Stream</tspan><tspan
-           id="tspan915-0-9-1"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="166.65047"
            x="147.06837"
-           sodipodi:role="line">master port</tspan></text>
+           y="163.1227"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px">AXI4-Lite</tspan><tspan
+           sodipodi:role="line"
+           x="147.06837"
+           y="166.65048"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan915-0-9-1">slave port</tspan></text>
     </g>
     <path
-       style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:0.50000077;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 124.71805,202.92107 c -0.89904,2.47237 -3.15476,2.99705 -2.80634,6.48129 0.31087,3.10864 5.18514,8.61813 8.08494,9.48807 1.273,0.3819 2.39873,-0.84993 3.74178,-0.13364 1.23199,0.65706 2.29307,2.14608 3.87542,1.87089 1.96847,-0.34234 3.26817,-2.38441 5.27859,-2.53906 2.33465,-0.17959 4.87439,0.94543 6.94903,-0.66817 2.40173,-1.86802 0.79493,-5.06436 1.93771,-7.34992 3.69183,-7.38364 6.18206,-8.54841 -0.60136,-14.09847 -1.66941,-1.36587 -4.20635,-2.65819 -6.4813,-2.40542 -2.31029,0.2567 -2.3616,2.79172 -4.00906,3.34087 -1.46214,0.48737 -3.84339,-6.27145 -8.55264,-2.73952 -5.20531,0.45706 -5.89752,4.57518 -7.41677,8.75308 z"
+       sodipodi:nodetypes="csccsscsccccc"
+       inkscape:connector-curvature="0"
        id="path1059"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csccsscsccccc" />
+       d="m 124.71805,202.92107 c -0.89904,2.47237 -3.15476,2.99705 -2.80634,6.48129 0.31087,3.10864 5.18514,8.61813 8.08494,9.48807 1.273,0.3819 2.39873,-0.84993 3.74178,-0.13364 1.23199,0.65706 2.29307,2.14608 3.87542,1.87089 1.96847,-0.34234 3.26817,-2.38441 5.27859,-2.53906 2.33465,-0.17959 4.87439,0.94543 6.94903,-0.66817 2.40173,-1.86802 0.79493,-5.06436 1.93771,-7.34992 3.69183,-7.38364 6.18206,-8.54841 -0.60136,-14.09847 -1.66941,-1.36587 -4.20635,-2.65819 -6.4813,-2.40542 -2.31029,0.2567 -2.3616,2.79172 -4.00906,3.34087 -1.46214,0.48737 -3.84339,-6.27145 -8.55264,-2.73952 -5.20531,0.45706 -5.89752,4.57518 -7.41677,8.75308 z"
+       style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:0.50000077;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52778339px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458374px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="132.61821"
-       y="208.55351"
+       transform="scale(1.0000016,0.9999984)"
        id="text1063"
-       transform="scale(1.0000016,0.9999984)"><tspan
-         sodipodi:role="line"
-         id="tspan1061"
-         x="132.61821"
+       y="208.55351"
+       x="132.61821"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;font-size:4.23334px;stroke-width:0.264584px"
          y="208.55351"
-         style="font-weight:bold;font-size:4.23333979px;stroke-width:0.26458374px">Logic</tspan></text>
+         x="132.61821"
+         id="tspan1061"
+         sodipodi:role="line">Logic</tspan></text>
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52778339px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458374px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="90.090172"
-       y="232.8624"
+       transform="scale(1.0000016,0.9999984)"
        id="text1063-2"
-       transform="scale(1.0000016,0.9999984)"><tspan
-         sodipodi:role="line"
-         id="tspan1061-9"
-         x="90.090172"
+       y="232.8624"
+       x="90.090172"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;font-size:4.23334px;stroke-width:0.264584px"
          y="232.8624"
-         style="font-weight:bold;font-size:4.23333979px;stroke-width:0.26458374px">DspModule</tspan></text>
+         x="90.090172"
+         id="tspan1061-9"
+         sodipodi:role="line">DspModule</tspan></text>
     <g
-       id="g1494"
-       transform="translate(-12.552704,23.183515)">
+       transform="translate(-12.552704,23.183515)"
+       id="g1494">
       <rect
-         y="154.38843"
-         x="51.447773"
-         height="20.835938"
-         width="34.065105"
+         style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect819"
-         style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         id="text1145"
-         y="167.52324"
-         x="68.493248"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="167.52324"
-           x="68.493248"
-           id="tspan1143"
-           sodipodi:role="line">AXI Stream</tspan><tspan
-           id="tspan1147"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="171.05101"
-           x="68.493248"
-           sodipodi:role="line">master BFM</tspan></text>
-      <text
-         id="text823-03"
-         y="162.06766"
-         x="68.473091"
-         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan825-6"
-           style="font-weight:bold;font-size:4.23333311px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="162.06766"
-           x="68.473091"
-           sodipodi:role="line">mst_a</tspan></text>
-    </g>
-    <g
-       transform="translate(-12.552704,49.025585)"
-       id="g1494-6">
-      <rect
-         y="154.38843"
+         width="34.065105"
+         height="20.835938"
          x="51.447773"
-         height="20.835938"
-         width="34.065105"
-         id="rect819-8"
-         style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         y="154.38843" />
       <text
-         id="text1145-8"
-         y="167.52324"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="68.493248"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         y="167.52324"
+         id="text1145"><tspan
+           sodipodi:role="line"
+           id="tspan1143"
+           x="68.493248"
            y="167.52324"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px">AXI Stream</tspan><tspan
+           sodipodi:role="line"
            x="68.493248"
-           id="tspan1143-4"
-           sodipodi:role="line">AXI Stream</tspan><tspan
-           id="tspan1147-3"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
            y="171.05101"
-           x="68.493248"
-           sodipodi:role="line">master BFM</tspan></text>
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan1147">master BFM</tspan></text>
       <text
-         id="text823-03-1"
-         y="162.06766"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="68.473091"
-         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan825-6-4"
-           style="font-weight:bold;font-size:4.23333311px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="162.06766"
+         y="162.06766"
+         id="text823-03"><tspan
+           sodipodi:role="line"
            x="68.473091"
-           sodipodi:role="line">mst_b</tspan></text>
+           y="162.06766"
+           style="font-weight:bold;font-size:4.23333px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan825-6">mst_a</tspan></text>
     </g>
     <g
-       id="g1660"
-       transform="translate(-11.170468,17.408396)">
+       id="g1494-6"
+       transform="translate(-12.552704,49.025585)">
       <rect
-         y="160.16354"
-         x="218.56554"
-         height="20.835938"
+         style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect819-8"
          width="34.065105"
+         height="20.835938"
+         x="51.447773"
+         y="154.38843" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="68.493248"
+         y="167.52324"
+         id="text1145-8"><tspan
+           sodipodi:role="line"
+           id="tspan1143-4"
+           x="68.493248"
+           y="167.52324"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px">AXI Stream</tspan><tspan
+           sodipodi:role="line"
+           x="68.493248"
+           y="171.05101"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan1147-3">master BFM</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="68.473091"
+         y="162.06766"
+         id="text823-03-1"><tspan
+           sodipodi:role="line"
+           x="68.473091"
+           y="162.06766"
+           style="font-weight:bold;font-size:4.23333px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan825-6-4">mst_b</tspan></text>
+    </g>
+    <g
+       transform="translate(-11.170468,17.408396)"
+       id="g1660">
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect819-8-2"
-         style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         width="34.065105"
+         height="20.835938"
+         x="218.56554"
+         y="160.16354" />
       <text
-         id="text1145-8-0"
-         y="173.29836"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="235.61101"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="173.29836"
-           x="235.61101"
+         y="173.29836"
+         id="text1145-8-0"><tspan
+           sodipodi:role="line"
            id="tspan1143-4-6"
-           sodipodi:role="line">AXI Stream</tspan><tspan
-           id="tspan1147-3-8"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="176.82613"
            x="235.61101"
-           sodipodi:role="line">slave BFM</tspan></text>
+           y="173.29836"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px">AXI Stream</tspan><tspan
+           sodipodi:role="line"
+           x="235.61101"
+           y="176.82613"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan1147-3-8">slave BFM</tspan></text>
       <text
-         id="text823-03-1-9"
-         y="167.84277"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="235.59085"
-         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan825-6-4-2"
-           style="font-weight:bold;font-size:4.23333311px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="167.84277"
+         y="167.84277"
+         id="text823-03-1-9"><tspan
+           sodipodi:role="line"
            x="235.59085"
-           sodipodi:role="line">slv_q1</tspan></text>
+           y="167.84277"
+           style="font-weight:bold;font-size:4.23333px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan825-6-4-2">slv_q1</tspan></text>
     </g>
     <g
-       id="g1668"
-       transform="translate(-11.571377,-3.52173)">
+       transform="translate(-11.571377,-3.52173)"
+       id="g1668">
       <rect
-         y="206.93571"
-         x="218.96645"
-         height="20.835938"
-         width="34.065105"
+         style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect819-8-2-6"
-         style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         width="34.065105"
+         height="20.835938"
+         x="218.96645"
+         y="206.93571" />
       <text
-         id="text1145-8-0-4"
-         y="220.07053"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="236.01192"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="220.07053"
-           x="236.01192"
+         y="220.07053"
+         id="text1145-8-0-4"><tspan
+           sodipodi:role="line"
            id="tspan1143-4-6-9"
-           sodipodi:role="line">AXI Stream</tspan><tspan
-           id="tspan1147-3-8-5"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="223.5983"
            x="236.01192"
-           sodipodi:role="line">slave BFM</tspan></text>
+           y="220.07053"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px">AXI Stream</tspan><tspan
+           sodipodi:role="line"
+           x="236.01192"
+           y="223.5983"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan1147-3-8-5">slave BFM</tspan></text>
       <text
-         id="text823-03-1-9-0"
-         y="214.61494"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="235.99176"
-         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan825-6-4-2-4"
-           style="font-weight:bold;font-size:4.23333311px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="214.61494"
+         y="214.61494"
+         id="text823-03-1-9-0"><tspan
+           sodipodi:role="line"
            x="235.99176"
-           sodipodi:role="line">slv_q2</tspan></text>
+           y="214.61494"
+           style="font-weight:bold;font-size:4.23333px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan825-6-4-2-4">slv_q2</tspan></text>
     </g>
     <g
-       id="g1768"
-       transform="translate(-13.593871,12.171457)">
+       transform="translate(-13.593871,12.171457)"
+       id="g1768">
       <rect
-         y="122.68134"
-         x="136.89439"
-         height="20.835938"
-         width="34.065105"
+         style="fill:#5fbcd3;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect819-8-2-6-7"
-         style="fill:#5fbcd3;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         width="34.065105"
+         height="20.835938"
+         x="136.89439"
+         y="122.68134" />
       <text
-         id="text1145-8-0-4-1"
-         y="135.81616"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="153.93987"
-         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="135.81616"
-           x="153.93987"
+         y="135.81616"
+         id="text1145-8-0-4-1"><tspan
+           sodipodi:role="line"
            id="tspan1143-4-6-9-7"
-           sodipodi:role="line">AXI4-Lite</tspan><tspan
-           id="tspan1147-3-8-5-2"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="139.34393"
            x="153.93987"
-           sodipodi:role="line">master BFM</tspan></text>
+           y="135.81616"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px">AXI4-Lite</tspan><tspan
+           sodipodi:role="line"
+           x="153.93987"
+           y="139.34393"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan1147-3-8-5-2">master BFM</tspan></text>
       <text
-         id="text823-03-1-9-0-7"
-         y="130.36058"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="153.91971"
-         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan825-6-4-2-4-2"
-           style="font-weight:bold;font-size:4.23333311px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="130.36058"
+         y="130.36058"
+         id="text823-03-1-9-0-7"><tspan
+           sodipodi:role="line"
            x="153.91971"
-           sodipodi:role="line">axi_ctrl</tspan></text>
+           y="130.36058"
+           style="font-weight:bold;font-size:4.23333px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.264583px"
+           id="tspan825-6-4-2-4-2">axi_ctrl</tspan></text>
     </g>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)"
-       d="M 73.118839,187.98991 H 86.206266"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
        id="path1770"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       d="M 73.118839,187.98991 H 86.206266"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-2)"
-       d="M 73.118839,213.83198 H 86.206266"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
        id="path1770-1"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       d="M 73.118839,213.83198 H 86.206266"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-2)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-2-0)"
-       d="m 192.2027,187.98991 h 13.08742"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
        id="path1770-1-1"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       d="m 192.2027,187.98991 h 13.08742"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-2-0)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-2-0-5)"
-       d="m 192.2027,213.83195 h 13.08742"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
        id="path1770-1-1-4"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       d="m 192.2027,213.83195 h 13.08742"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-2-0-5)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM-2-0-5-9)"
-       d="m 140.33308,157.93991 v 5.33661"
-       id="path1770-1-1-4-9"
+       sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       id="path1770-1-1-4-9"
+       d="m 140.33308,157.93991 v 5.33661"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM-2-0-5-9)" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52778339px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458374px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="32.129875"
-       y="239.80777"
+       transform="scale(1.0000016,0.9999984)"
        id="text1063-2-7"
-       transform="scale(1.0000016,0.9999984)"><tspan
-         sodipodi:role="line"
-         id="tspan1061-9-7"
-         x="32.129875"
+       y="239.80777"
+       x="32.129875"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;font-size:4.23334px;stroke-width:0.264584px"
          y="239.80777"
-         style="font-weight:bold;font-size:4.23333979px;stroke-width:0.26458374px">DspModuleTester</tspan></text>
+         x="32.129875"
+         id="tspan1061-9-7"
+         sodipodi:role="line">DspModuleTester</tspan></text>
   </g>
 </svg>
