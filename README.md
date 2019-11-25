@@ -11,3 +11,11 @@ AXI-Stream output ports and an AXI4-Lite control port is instantiated and
 tested.
 
 ![DspModuleTester](docs/example-1.png)
+
+## Example 2: XGMII statistics module
+
+BfmTester also allows the integration of custom (i.e. provided by the user
+of the tester) bus functional models. This example provides driver and monitor
+for a 10 gigabit media-independent interface (XGMII).
+
+![XgmiiStatsTester](docs/example-2.png)
