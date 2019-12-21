@@ -54,8 +54,10 @@ class XgmiiStats extends Module {
 
   // =========================================================================
   //  logic
-
-  val xgmii_reg = RegNext(io.xgmii_in)
+  val XGMII_INIT = Reg(new XgmiiInterface)
+  XGMII_INIT.ctrl := 0xFF.U
+  XGMII_INIT.data := 0x0707070707070707L.U
+  val xgmii_reg = RegNext(io.xgmii_in, XGMII_INIT)
   val xgmii_prev = RegNext(xgmii_reg)
   io.xgmii_out := xgmii_reg
 

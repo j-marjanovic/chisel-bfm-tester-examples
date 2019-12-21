@@ -27,13 +27,33 @@ package example
 import bfmtester._
 import chisel3.Bits
 
+import scala.collection.mutable.ListBuffer
+
 class XgmiiMonitor(val interface: XgmiiInterface,
                    val peek: Bits => BigInt,
                    val poke: (Bits, BigInt) => Unit,
                    val println: String => Unit) extends Bfm {
 
+  private val recv_data: ListBuffer[BigInt] = ListBuffer[BigInt]()
+
   override def update(t: Long): Unit = {
-    println(s"${t}%5 XgmiiMonitor: update()")
+    println(f"${t}%5d XgmiiMonitor: update()")
+
+    val data = peek(interface.data)
+    val ctrl = peek(interface.ctrl)
+
+    for (i <- 0 to 7) {
+      if ((ctrl & (1 << i)) == 0) {
+        val x = (data >> (8*i)) & 0xFF
+        recv_data += x
+      }
+    }
+  }
+
+  def data_get(): List[BigInt] = {
+    val tmp = recv_data.toList
+    recv_data.clear()
+    tmp
   }
 
 }
