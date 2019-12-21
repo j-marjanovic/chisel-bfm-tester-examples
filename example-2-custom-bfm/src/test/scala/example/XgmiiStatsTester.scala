@@ -20,7 +20,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-*/
+ */
 
 package example
 
@@ -33,7 +33,7 @@ class XgmiiStatsTester(c: XgmiiStats) extends BfmTester(c) {
 
   val m_drv = new XgmiiDriver(c.io.xgmii_in, peek, poke, println)
   val m_mon = new XgmiiMonitor(c.io.xgmii_out, peek, poke, println)
-  val axi_ctrl = BfmFactory.create_axilite_master(c.io.ctrl, ident="Control")
+  val axi_ctrl = BfmFactory.create_axilite_master(c.io.ctrl, ident = "Control")
 
   //==========================================================================
   // utils
@@ -43,12 +43,9 @@ class XgmiiStatsTester(c: XgmiiStats) extends BfmTester(c) {
 
   //==========================================================================
   // main
-  val C_PKT1_DATA = List[BigInt](0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0xd5,
-    0x01, 0x02, 0x03, 0x04, 0x05, 0x6,
-    0x21, 0x22, 0x23, 0x24, 0x25, 0x26,
-    0x80, 0x06,
-    0x11, 0x22, 0x33, 0x44
-  )
+  val C_PKT1_DATA = List[BigInt](0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0xd5, 0x01,
+    0x02, 0x03, 0x04, 0x05, 0x6, 0x21, 0x22, 0x23, 0x24, 0x25, 0x26, 0x80, 0x06,
+    0x11, 0x22, 0x33, 0x44)
 
   println(f"${t}%5d Test starting...")
 
@@ -64,8 +61,10 @@ class XgmiiStatsTester(c: XgmiiStats) extends BfmTester(c) {
   // check the packet
   expect(resp.length == C_PKT1_DATA.length, "packet length")
   (resp zip C_PKT1_DATA).zipWithIndex.foreach(
-    (xyi: ((BigInt, BigInt), Int)) => expect(xyi._1._1 == xyi._1._2,
-      f"packet element ${xyi._2} (got ${xyi._1._1}%02x, expect ${xyi._1._2}%02x)")
+    (xyi: ((BigInt, BigInt), Int)) =>
+      expect(
+        xyi._1._1 == xyi._1._2,
+        f"packet element ${xyi._2} (got ${xyi._1._1}%02x, expect ${xyi._1._2}%02x)")
   )
 
   // check status on AXI4-Lite port

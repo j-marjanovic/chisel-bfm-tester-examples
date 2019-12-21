@@ -20,7 +20,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-*/
+ */
 
 package example
 
@@ -39,7 +39,7 @@ class DspModuleTester(c: DspModule) extends BfmTester(c) {
   slv_q1.setVerbose(false)
   slv_q2.setVerbose(false)
 
-  val axi_ctrl = BfmFactory.create_axilite_master(c.io.ctrl, ident="Lite")
+  val axi_ctrl = BfmFactory.create_axilite_master(c.io.ctrl, ident = "Lite")
 
   //==========================================================================
   // main
@@ -50,7 +50,7 @@ class DspModuleTester(c: DspModule) extends BfmTester(c) {
 
   mst_a.stimAppend(2, 0)
   step(1)
-  mst_b.stimAppend(1,0)
+  mst_b.stimAppend(1, 0)
 
   step(5)
 
@@ -68,7 +68,6 @@ class DspModuleTester(c: DspModule) extends BfmTester(c) {
 
   val id_reg = axi_ctrl.getResponse().get.rd_data
   println(f"${t}%5d Ident reg = ${id_reg}%08x")
-
 
   println(f"${t}%5d Test finished.")
 }

@@ -20,7 +20,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-*/
+ */
 
 package example
 
@@ -29,15 +29,21 @@ import chisel3.iotesters.ChiselFlatSpec
 
 class DspModuleTest extends ChiselFlatSpec {
   "tester" should "compare expected and obtained response" in {
-    iotesters.Driver.execute(Array(
-        "--backend-name", "verilator",
+    iotesters.Driver.execute(
+      Array(
+        "--backend-name",
+        "verilator",
         "--fint-write-vcd",
-        "--test-seed", "1234",
-        "--target-dir", "test_run_dir/DspModule",
-        "--top-name", "DspModuleTest"
+        "--test-seed",
+        "1234",
+        "--target-dir",
+        "test_run_dir/DspModule",
+        "--top-name",
+        "DspModuleTest"
       ),
-      () => new DspModule) {
-      c => new DspModuleTester(c)
+      () => new DspModule
+    ) { c =>
+      new DspModuleTester(c)
     } should be(true)
   }
 }

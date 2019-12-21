@@ -20,7 +20,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-*/
+ */
 
 package example
 
@@ -38,7 +38,7 @@ class XgmiiStats extends Module {
 
   // from/to Axi
   val cntr_bytes = RegInit(UInt(32.W), 0.U)
-  val cntr_pkts  = RegInit(UInt(32.W), 0.U)
+  val cntr_pkts = RegInit(UInt(32.W), 0.U)
   val cntr_bytes_clear = Wire(Bool())
   val cntr_pkts_clear = Wire(Bool())
 
@@ -61,15 +61,15 @@ class XgmiiStats extends Module {
   val xgmii_prev = RegNext(xgmii_reg)
   io.xgmii_out := xgmii_reg
 
-  when (cntr_bytes_clear) {
+  when(cntr_bytes_clear) {
     cntr_bytes := 0.U
-  } .otherwise {
+  }.otherwise {
     cntr_bytes := cntr_bytes + PopCount(xgmii_reg.ctrl ^ 0xFF.U)
   }
 
-  when (cntr_pkts_clear) {
+  when(cntr_pkts_clear) {
     cntr_pkts := 0.U
-  } .elsewhen ((xgmii_prev.ctrl === 0.U) && (xgmii_reg.ctrl =/= 0.U)) {
+  }.elsewhen((xgmii_prev.ctrl === 0.U) && (xgmii_reg.ctrl =/= 0.U)) {
     cntr_pkts := cntr_pkts + 1.U
   }
 

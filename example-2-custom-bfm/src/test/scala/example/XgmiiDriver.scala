@@ -20,7 +20,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-*/
+ */
 
 package example
 
@@ -29,21 +29,20 @@ import chisel3.Bits
 
 import scala.collection.mutable.ListBuffer
 
-
 class XgmiiDriverData(val d: BigInt, val c: BigInt)
-
 
 class XgmiiDriver(val interface: XgmiiInterface,
                   val peek: Bits => BigInt,
                   val poke: (Bits, BigInt) => Unit,
-                  val println: String => Unit) extends Bfm {
+                  val println: String => Unit)
+    extends Bfm {
 
   private val data_buf = ListBuffer[XgmiiDriverData]()
 
-  def send(x : XgmiiDriverData): Unit = data_buf += x
-  def send(xs : Iterable[XgmiiDriverData]) : Unit = data_buf ++= xs
+  def send(x: XgmiiDriverData): Unit = data_buf += x
+  def send(xs: Iterable[XgmiiDriverData]): Unit = data_buf ++= xs
 
-  private def bl_to_bigint(shift: Int) : List[BigInt] => BigInt =
+  private def bl_to_bigint(shift: Int): List[BigInt] => BigInt =
     _.foldRight(BigInt(0))((x, y) => x | (y << shift))
 
   private def drive_empty_cycle(): Unit = {
@@ -56,8 +55,10 @@ class XgmiiDriver(val interface: XgmiiInterface,
     if (data_buf.nonEmpty) {
       val nr_els = Math.min(8, data_buf.length)
 
-      val dl : List[BigInt] = data_buf.toList.slice(0, nr_els).map(_.d) ++ List.fill(8-nr_els)(BigInt(0x07))
-      val cl : List[BigInt] = data_buf.toList.slice(0, nr_els).map(_.c) ++ List.fill(8-nr_els)(BigInt(0x1))
+      val dl: List[BigInt] = data_buf.toList.slice(0, nr_els).map(_.d) ++ List
+        .fill(8 - nr_els)(BigInt(0x07))
+      val cl: List[BigInt] = data_buf.toList.slice(0, nr_els).map(_.c) ++ List
+        .fill(8 - nr_els)(BigInt(0x1))
       val d = bl_to_bigint(8)(dl)
       val c = bl_to_bigint(1)(cl)
       data_buf.remove(0, nr_els)
