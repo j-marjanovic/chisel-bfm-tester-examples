@@ -8,7 +8,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "hello",
     libraryDependencies += "edu.berkeley.cs" %% "chisel3" % "3.1.+",
-    libraryDependencies += "io.j-marjanovic" %% "chisel-bfmtester" % "0.2.+"
+    libraryDependencies += "io.j-marjanovic" %% "chisel-bfmtester" % "0.3.+"
   )
 
 def scalacOptionsVersion(scalaVersion: String): Seq[String] = {

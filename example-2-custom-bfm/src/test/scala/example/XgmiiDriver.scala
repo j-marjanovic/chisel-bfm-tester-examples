@@ -50,8 +50,7 @@ class XgmiiDriver(val interface: XgmiiInterface,
     poke(interface.ctrl, 0xFF)
   }
 
-  override def update(t: Long): Unit = {
-    println(f"${t}%5d XgmiiDriver: update()")
+  override def update(t: Long, poke: (Bits, BigInt) => Unit): Unit = {
     if (data_buf.nonEmpty) {
       val nr_els = Math.min(8, data_buf.length)
 
@@ -62,6 +61,8 @@ class XgmiiDriver(val interface: XgmiiInterface,
       val d = bl_to_bigint(8)(dl)
       val c = bl_to_bigint(1)(cl)
       data_buf.remove(0, nr_els)
+
+      println(f"${t}%5d XgmiiDriver: send ${d}%016x ${c}%02x")
 
       poke(interface.data, d)
       poke(interface.ctrl, c)

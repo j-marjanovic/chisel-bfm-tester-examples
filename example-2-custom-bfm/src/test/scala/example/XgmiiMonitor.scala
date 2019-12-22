@@ -37,11 +37,13 @@ class XgmiiMonitor(val interface: XgmiiInterface,
 
   private val recv_data: ListBuffer[BigInt] = ListBuffer[BigInt]()
 
-  override def update(t: Long): Unit = {
-    println(f"${t}%5d XgmiiMonitor: update()")
-
+  override def update(t: Long, poke: (Bits, BigInt) => Unit): Unit = {
     val data = peek(interface.data)
     val ctrl = peek(interface.ctrl)
+
+    if (ctrl != 0xFF){
+      println(f"${t}%5d XgmiiMonitor: recv ${data}%016x ${ctrl}%02x")
+    }
 
     for (i <- 0 to 7) {
       if ((ctrl & (1 << i)) == 0) {
