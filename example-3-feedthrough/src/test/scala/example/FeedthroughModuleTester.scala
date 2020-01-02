@@ -33,7 +33,8 @@ class FeedthroughModuleTester(c: FeedthroughModule) extends BfmTester(c) {
 
   val m_mst = BfmFactory.create_axis_master(c.io.in)
   val m_slv = BfmFactory.create_axis_slave(c.io.out)
-  m_slv.setVerbose(true)
+  // m_slv.setVerbose(true)
+  m_slv.backpressure = 0.9
 
   //==========================================================================
   // main
@@ -42,9 +43,10 @@ class FeedthroughModuleTester(c: FeedthroughModule) extends BfmTester(c) {
   m_mst.stimAppend(22, 0)
   m_mst.stimAppend(33, 0)
   m_mst.stimAppend(44, 0)
-  step(5)
+  step(50)
 
   val resps: List[(BigInt, BigInt)] = m_slv.respGet()
+  expect(resps.size == 3, "number of samples received")
   expect(resps(n = 0)._1 == 22, "first sample")
   expect(resps(n = 1)._1 == 33, "second sample")
   expect(resps(n = 2)._1 == 44, "third sample")

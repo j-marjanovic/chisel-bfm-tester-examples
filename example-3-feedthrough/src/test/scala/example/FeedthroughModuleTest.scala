@@ -28,22 +28,34 @@ import chisel3.iotesters
 import chisel3.iotesters.ChiselFlatSpec
 
 class FeedthroughModuleTest extends ChiselFlatSpec {
-  "tester" should "compare expected and obtained response" in {
-    iotesters.Driver.execute(
-      Array(
+
+  def gen_options(seed: String) = {
+    Array(
         "--backend-name",
         "verilator",
         "--fint-write-vcd",
         "--test-seed",
-        "1234",
+        seed,
         "--target-dir",
-        "test_run_dir/FeedthroughModuleTester",
+        "test_run_dir/FeedthroughModuleTester1",
         "--top-name",
-        "FeedthroughModuleTest",
-      ),
+        "FeedthroughModuleTest1",
+      )
+  }
+
+  "tester" should "compare expected and obtained response (seed #1)" in {
+    iotesters.Driver.execute(gen_options("1234"),
       () => new FeedthroughModule
     ) { c =>
       new FeedthroughModuleTester(c)
     } should be(true)
+  }
+
+    "tester" should "compare expected and obtained response (seed #2)" in {
+    iotesters.Driver.execute(gen_options("1237"),
+      () => new FeedthroughModule
+    ) { c =>
+      new FeedthroughModuleTester(c)
+    } should be(false)
   }
 }

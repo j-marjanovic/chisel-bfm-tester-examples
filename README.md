@@ -19,3 +19,12 @@ of the tester) bus functional models. This example provides driver and monitor
 for a 10 gigabit media-independent interface (XGMII).
 
 ![XgmiiStatsTester](docs/example-2.png)
+
+## Example 3: Feedthrough
+
+This example connects directly AXI-Stream Master to an AXI-Stream Slave with
+direction connection.
+
+**This example is not working correctly** - the same test passes and fails
+for different seeds. The purpose of this example is to demonstrate the current
+limitation of the BFM tester.
