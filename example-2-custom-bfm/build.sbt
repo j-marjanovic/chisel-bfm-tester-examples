@@ -6,9 +6,9 @@ ThisBuild / organizationName := "example"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "hello",
+    name := "example-2-xgmii",
     libraryDependencies += "edu.berkeley.cs" %% "chisel3" % "3.1.+",
-    libraryDependencies += "io.j-marjanovic" %% "chisel-bfmtester" % "0.3.+"
+    libraryDependencies += "io.j-marjanovic" %% "chisel-bfmtester" % "0.4.0-SNAPSHOT"
   )
 
 def scalacOptionsVersion(scalaVersion: String): Seq[String] = {
