@@ -70,10 +70,7 @@ class DataGenerator(val data_w: Int, val nr_els: Int) extends Module {
   io.done := state === State.sDone
 
   assert(data_w % 8 == 0, "Data width must be a multiple of 8")
-  val out_vec = WireInit(VecInit(Seq.fill(data_w/8)(cntr(7, 0)))) // (VecInit.tabulate(data_w/8)(_ => UInt(8.W)))
-  //for (i <- 0 until data_w/8) {
-  //  out_vec(i) := cntr(7, 0)
-  //}
+  val out_vec = WireInit(VecInit(Seq.fill(data_w/8)(cntr(7, 0))))
   io.dout := out_vec.asUInt()
   io.addr := cntr
   io.we := state === State.sWrite
