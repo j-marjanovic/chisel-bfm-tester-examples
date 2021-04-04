@@ -237,7 +237,7 @@
      inkscape:window-height="1136"
      inkscape:window-width="1848"
      showgrid="false"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1233"
      inkscape:document-units="mm"
      inkscape:cy="405.35074"
      inkscape:cx="467.31116"
@@ -440,7 +440,7 @@
              style="font-weight:bold;font-size:3.88057px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.264584px"
              y="198.78087"
              x="229.82556"
-             sodipodi:role="line">mod_mem1</tspan></text>
+             sodipodi:role="line">mod_mem2</tspan></text>
         <text
            id="text1213"
            y="203.66776"
@@ -478,7 +478,7 @@
              style="font-weight:bold;font-size:3.88056px;line-height:125%;text-align:center;text-anchor:middle;stroke-width:0.264583px"
              y="229.07005"
              x="222.95044"
-             sodipodi:role="line">mod_dg1</tspan></text>
+             sodipodi:role="line">mod_dg2</tspan></text>
         <text
            id="text1227"
            y="233.95694"
