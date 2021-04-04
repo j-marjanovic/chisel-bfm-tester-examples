@@ -28,3 +28,11 @@ direction connection.
 **This example is not working correctly** - the same test passes and fails
 for different seeds. The purpose of this example is to demonstrate the current
 limitation of the BFM tester.
+
+## Example 4: Generated AXI4-Lite subordinate
+
+This example uses `AxiLiteSubordinateGenerator` to generate a module with an
+AXI4-Lite interface which provides a control and status access to the internal
+logic.
+
+![GenExampleTester](docs/example-4.png)
