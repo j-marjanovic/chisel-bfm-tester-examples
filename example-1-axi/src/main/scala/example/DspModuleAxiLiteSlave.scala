@@ -72,12 +72,12 @@ class DspModuleAxiLiteSlave extends Module {
     is(sWrIdle) {
       when(io.ctrl.AW.valid && io.ctrl.W.valid) {
         wr_en := true.B
-        wr_addr := io.ctrl.AW.bits(ADDR_W - 1, 2)
+        wr_addr := io.ctrl.AW.bits.addr(ADDR_W - 1, 2)
         wr_data := io.ctrl.W.bits.wdata
         wr_strb := io.ctrl.W.bits.wstrb
         state_wr := sWrResp
       }.elsewhen(io.ctrl.AW.valid) {
-          wr_addr := io.ctrl.AW.bits(ADDR_W - 1, 2)
+          wr_addr := io.ctrl.AW.bits.addr(ADDR_W - 1, 2)
           state_wr := sWrHasRecvAddr
         }
         .elsewhen(io.ctrl.W.valid) {
@@ -97,7 +97,7 @@ class DspModuleAxiLiteSlave extends Module {
     is(sWrHasRecvData) {
       when(io.ctrl.AW.valid) {
         wr_en := true.B
-        wr_addr := io.ctrl.AW.bits(ADDR_W - 1, 2)
+        wr_addr := io.ctrl.AW.bits.addr(ADDR_W - 1, 2)
         state_wr := sWrResp
       }
     }
@@ -181,7 +181,7 @@ class DspModuleAxiLiteSlave extends Module {
     is(sRdIdle) {
       when(io.ctrl.AR.valid) {
         rd_en := true.B
-        rd_addr := io.ctrl.AR.bits(io.ctrl.AR.bits.getWidth - 1, 2)
+        rd_addr := io.ctrl.AR.bits.addr(ADDR_W - 1, 2)
         state_rd := sRdRead
       }
     }

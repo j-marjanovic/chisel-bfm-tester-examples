@@ -31,8 +31,8 @@ class XgmiiStatsTester(c: XgmiiStats) extends BfmTester(c) {
   //==========================================================================
   // modules
 
-  val m_drv = new XgmiiDriver(c.io.xgmii_in, peek, poke, println)
-  val m_mon = new XgmiiMonitor(c.io.xgmii_out, peek, poke, println)
+  val m_drv = new XgmiiDriver(c.io.xgmii_in, bfm_peek, bfm_poke, println)
+  val m_mon = new XgmiiMonitor(c.io.xgmii_out, bfm_peek, bfm_poke, println)
   val axi_ctrl = BfmFactory.create_axilite_master(c.io.ctrl, ident = "Control")
 
   //==========================================================================
